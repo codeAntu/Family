@@ -1,0 +1,101 @@
+@font-face {
+    font-family: ben;
+    src: url("fonts/Lipishree.ttf");
+}
+@font-face {
+    font-family: b;
+    src: url("fonts/OpenSans-ExtraBold.ttf");
+}
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+body{
+   text-align: center;
+}
+
+.fullDiv{
+    min-height: 100px;
+    width: 93%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    margin: 20px auto 20px auto;
+    border-radius: 20px;
+    padding: 30px;
+    text-align: center;
+    font-size: 1em;
+    /* cursor: pointer; */
+}
+.fullDiv h1{
+    /* cursor: pointer; */
+    font-family: b;
+}
+.first{
+    color: #ff4e50;
+    color: white;
+    /* background-image: linear-gradient(-225deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%); */
+    /* box-shadow:0 0 20px 0px #7918F288; */
+    background-color: #ff4e50;
+    background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%);
+    background: linear-gradient(-225deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%);
+    font-size: 1.2em;
+    padding:30px 20px;
+}
+.second{
+    font-family: ben;
+    background-color: transparent;
+    font-size: 1.6em;
+    background: -webkit-linear-gradient(#f9d423 0%, #ff4e50 100%);
+    -webkit-background-clip: text;
+    font-weight: 900;
+    -webkit-text-fill-color: transparent;
+    /* color: #7918F2; */
+    text-transform: uppercase;
+    padding: 10px;
+}
+.second h1{
+    font-family: ben;
+}
+img{
+   width: 100%;
+}
+.top{
+   width: 60%;;
+}
+.fourth{
+    background-color: white;
+    flex-direction: column;
+    font-family: google;
+    font-size: 0.8em;
+    background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+    text-transform: capitalize;
+    color: white;
+}
+.fourth audio,.fifth audio{
+    margin-top: 20px;
+    width: 100%;
+}
+.third{
+    /* background-image: linear-gradient(to right, #f9d423 0%, #ff4e50 100%); */
+    background: linear-gradient(-225deg, #AC32E4 0%, #7918F2 48%, #4801FF 100%);
+    min-height: 0;
+    color: white;
+    padding: 20px;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 1.3em;
+}
+.third h1{
+    font-family: ben;
+    font-size: 2em;
+}
+.sixth{
+    font-size: 0.8em;
+    text-transform: capitalize;
+    color: #fff;
+    flex-direction: column;
+    background-image: linear-gradient(-20deg, #fc6076 0%, #ff9a44 100%);
+}
